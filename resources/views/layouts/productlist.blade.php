@@ -32,8 +32,8 @@
 
                                         </h4>
                                         <h3 class="ng-binding">PRECIO:
-                                            <span ng-if="publicacion.publicacion.tipo_moneda==2 && publicacion.publicacion.precio != 0">EUR</span>
-                                            <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">USD</span>
+                                            <span ng-if="publicacion.publicacion.tipo_moneda==2 && publicacion.publicacion.precio != 0">USD</span>
+                                            <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">MXN</span>
                                             <span ng-if="publicacion.publicacion.precio != 0">@{{publicacion.publicacion.precio | formatPrice:0:'.':',':false}}</span>
                                             <span ng-if="publicacion.publicacion.precio ==0">A convenir</span></h3>
                                     </div>

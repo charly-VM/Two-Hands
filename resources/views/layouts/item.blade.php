@@ -10,7 +10,7 @@
 					<div class="gallery">
 						<div class="precio-label-main">
 							<span ng-if="publicacion.tipo_moneda==2 && publicacion.precio != 0">$</span>
-							<span ng-if="publicacion.tipo_moneda==1 && publicacion.precio != 0">USD</span>
+							<span ng-if="publicacion.tipo_moneda==1 && publicacion.precio != 0">MXN</span>
 							<span ng-if=" publicacion.precio != 0 ">@{{publicacion.precio | formatPrice:0:'.':',':false}} </span>
 							<span ng-if="publicacion.precio == 0" >A convenir </span>
 						</div>

@@ -22,9 +22,9 @@
                                 <fieldset>
                                     <h5>Divisa:</h5></br>
                                     <select name="singleSelect" required id="singleSelect" ng-model="divisa">
-                                        <option value="">---Please select---</option> <!-- not selected / blank option -->
-                                        <option value="1">USD</option> <!-- interpolation -->
-                                        <option value="2">EUR</option>
+                                        <option value="">---Seleccionar---</option> <!-- not selected / blank option -->
+                                        <option value="1">MXN</option> <!-- interpolation -->
+                                        <option value="2">USD</option>
                                     </select><br>
                                 </fieldset>
                                 <fieldset>

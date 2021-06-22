@@ -22,7 +22,7 @@
 		<fieldset><input style="border-radius: 8px; margin: 1px;" type="text" placeholder="Nombre" ng-model="nombre"></fieldset>
 		<fieldset><input style="border-radius: 8px; margin: 1px;" type="text" placeholder="Email" ng-model="email"></fieldset>
 		<fieldset>
-		<textarea name=""  style="border-radius: 8px; margin: 1px;" id="" cols="30" rows="5" placeholder="Mensaje" ng-model="descripcion"></textarea>
+		<textarea name=""  style="border-radius: 8px; margin: 1px;" id="" cols="40" rows="2" placeholder="Mensaje" ng-model="descripcion"></textarea>
 			<button  class="button-contact" type="submit">@{{ 'ENVIAR' | translate }}</button>
 		</fieldset>
 		</form>

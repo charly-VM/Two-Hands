@@ -103,7 +103,7 @@
 		display: none;
 	}
 	.logo{
-	    background-image: url(../img/background-top-logo.png);
+	    background-image: url(../img/two-hands.png);
 	    width: 418px;
 	    height: 140px;
 	    z-index: 99;
@@ -247,8 +247,8 @@
 	    padding-left: 102px;
 	    line-height: 50px;
 	    padding-right: 81px;
-	    /* background-image: url(../img/relleno-subcategoria.png),background-image: url(../img/corner-subcategoria.png); */
-	    background: url(../img/corner-subcategoria-blanco.png) no-repeat center right,url(../img/relleno-subcategoria.png) center;
+	    
+	    background: linear-gradient(70deg, #58D68D , #7FB3D5);
 	    background-size: contain;
 	    padding-top: 3px;
 	}
@@ -309,7 +309,7 @@
 	/*HOME*/
 	.search-box{
 	    min-height: 300px;
-	    background-image: url(../img/logo-seguro.png);
+	    background-image: url(../img/two-hands2.png);
 	    background-repeat: no-repeat;
 	    background-position: 10%;
 	    background-size: 13%;	
@@ -334,8 +334,8 @@
 	}
 	.title-box{
 		min-height: 100px;
-		background: rgba(0, 0, 0, 0.6);	
-		color: white;	
+		background: rgba(72, 201, 176);	
+		color: black;	
 		text-align: center;
 		padding-top: 15px;
 	}
@@ -453,12 +453,12 @@
 	.sub-menu li{
 	    font-size: 1em !important;
 	    line-height: 2em;
-	    background: white;
+	    background:#16A085 ;
 	    color: gray;
 	}
 	.sub-menu li:hover{
 		background: gray !important;
-		color: white !important;
+		color:#16A085  !important;
 	}
 	.sub-title-description{
 		font-weight: 600;
@@ -469,10 +469,10 @@
 	.button-contact{
 	    width: 100%;
 	    border: 0;
-	    background: #971a13;
+	    background: linear-gradient(70deg, #58D68D , #7FB3D5);
 	    margin: 15px 0;
 	    height: 45px;
-	    color: white;
+	    color: black;
 	    font-size: 1.4em;
 	    border-radius: 5px;
 	    font-weight: 600;
@@ -484,7 +484,7 @@
 	
 	
 	            .navbar-brand{    padding: 0px;
-    background-image: url(../img/background-top-logo.png);
+    background-image: url(../img/two-hands.png);
     width: 418px;
     height: 137px; }
             .navbar{min-height: 74px !important;}
@@ -495,7 +495,7 @@
             .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{height: 71px;}
             .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{height: 71px;background-color:transparent !important;}
             .navbar{ 
-                background-image: url('../img/background-top-menu.png');
+                background-image: url('../img/');
                 border:0px;
                 background-repeat: no-repeat;
                 background-position: top left;
@@ -514,7 +514,7 @@
                 /*padding-right: 27px;*/
                 font-size: 18px;
                 padding-top: 25px;
-                color:white !important;
+                color:black !important;
             }
             
             
@@ -524,10 +524,38 @@
             .marginBottom-0 {margin-bottom:0;}
 
 .dropdown-submenu{position:relative;}
-.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
-.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
-.dropdown-submenu:hover>a:after{border-left-color:#555;}
-.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+.dropdown-submenu>
+.dropdown-menu{top:0;
+	left:100%;
+	margin-top:-6px;
+	margin-left:-1px;
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	border-radius:0 6px 6px 6px;}
+.dropdown-submenu>
+a:after{display:block;
+	content:" ";
+	float:right;
+	width:0;
+	height:0;
+	border-color:transparent;
+	border-style:solid;
+	border-width:5px 0 5px 5px;
+	border-left-color:#cccccc;
+	margin-top:5px;
+	margin-right:-10px;}
+.dropdown-submenu:hover>
+a:after{border-left-color:#555;}
+.dropdown-submenu
+.pull-left{float:none;}
+.dropdown-submenu
+.pull-left>
+.dropdown-menu{left:-100%;
+	margin-left:10px;
+	-webkit-border-radius:6px 0 6px 6px;
+	-moz-border-radius:
+	6px 0 6px 6px;
+	border-radius:6px 0 6px 6px;}
 	
 	
 	
@@ -692,7 +720,7 @@ color: white !important;
 	
 	.navbar-header{
 		height:69px;
-		background-image: url(../img/background-top-menu.png);
+		background-image: url(../img/two-hands.png);
 	}
 	
 	.navbar-default{

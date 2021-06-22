@@ -45,15 +45,15 @@
         <div class="center">
             <div class="grid-products container tablabas">
                 <div class="grid-products col-md-4 col-xs-12 container">
-                    <img class="imgbas"  src="{{asset('img/apatxee1.png')}}" alt="">
+                    <img class="imgbas"  src="{{asset('img/Online.jpg')}}" alt="">
                     <p style="font-weight: 600; margin: 5%;">@{{'TUTO1' | translate}}</p>
                 </div>
                 <div class="grid-products col-md-4 col-xs-12 container">
-                    <img class="imgbas"  src="{{asset('img/apatxee2.png')}}" alt="">
+                    <img class="imgbas"  src="{{asset('img/direccion.jpg')}}" alt="">
                     <p style="font-weight: 600; margin: 5%;">@{{'TUTO2' | translate}}</p>
                 </div>
                 <div class="grid-products col-md-4 col-xs-12 container">
-                    <img class="imgbas"  src="{{asset('img/apatxee3.png')}}" alt="">
+                    <img class="imgbas"  src="{{asset('img/repartidor.png')}}" alt="">
                     <p style="font-weight: 600; margin: 5%;">@{{'TUTO3' | translate}}</p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                                     </h4>
                                     <h3 class="ng-binding">@{{ 'PRECIO' | translate }}:
                                         <span ng-if="publicacion.publicacion.tipo_moneda==2 && publicacion.publicacion.precio != 0">$</span>
-                                        <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">USD</span>
+                                        <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">MXN</span>
                                         <span ng-if="publicacion.publicacion.precio != 0">@{{publicacion.publicacion.precio | formatPrice:0:'.':',':false}}</span>
                                         <span ng-if="publicacion.publicacion.precio ==0">A convenir</span></h3>
                                 </div>
@@ -127,7 +127,7 @@
                                                 <h5><a href="#">@{{publicacion.publicacion.titulo}}</a></h5>
                                                 <p><span class="product-price">@{{publicacion.publicacion.precio | formatPrice:0:'.':',':false}}</span>
                                                     <span ng-if="publicacion.publicacion.tipo_moneda==2 && publicacion.publicacion.precio != 0">$</span>
-                                                    <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">USD</span>
+                                                    <span ng-if="publicacion.publicacion.tipo_moneda==1 && publicacion.publicacion.precio != 0">MXN</span>
                                                 </p>
                                             </div><!-- End .entry-content -->
                                         </a>

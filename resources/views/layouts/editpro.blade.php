@@ -18,7 +18,7 @@
                                 <fieldset><input name="precio" type="text" placeholder="Precio" required ng-model="precio"></fieldset>
                                 <fieldset>
                                     <h5>Divisa:</h5></br>
-                                    <select name="singleSelect" required id="singleSelect" ng-model="divisa">
+                                    <select name="singleSelect" required id="" ng-model="divisa">
                                         <option value="">---Please select---</option> <!-- not selected / blank option -->
                                         <option value="1">USD</option> <!-- interpolation -->
                                         <option value="2">EUR</option>

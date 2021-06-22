@@ -108,8 +108,8 @@ app.factory('globalF', function ( $cookies, $location, $rootScope,$window) {
     });
     // Adding a translation table for the Russian language
     $translateProvider.translations('es_ES', {
-        "TITLE"     : "El portal de compra y venta hecho para la gente que no le gusta esperar.",
-        "TUTO1"    : "Publica tus dias, semanas y horarios de entrega. en ese tiempo los compradores podrán comprar tus productos. puedes repetir horarios si publicas más anuncios.",
+        "TITLE"     : "Empieza a vender en 2Hands. Pon tus productos frente a los millones de clientes que compran en 2Hands todos los días.",
+        "TUTO1"    : "Publica tus dias, semanas y horarios de entrega. en ese tiempo los compradores podrán comprar tus productos.",
         "TUTO2" : "Cuando el cliente confirme la compra, tú recibirás una notificación push y un email en tu smartphone confirmándote los datos del comprador. Este será el momento en el que debes llevar el producto al domicilio del comprador.",
         "TUTO3" : "Cuando entregues el producto, cóbralo y segúrate de que el comprador confirma en la app que lo ha recibido. Esto es importante para calcular tu media de tiempo de entrega. Tus compradores no estarán a mas de 15km. de tu ubicación.",
         "PUBLICAR"    : "Publicar",
