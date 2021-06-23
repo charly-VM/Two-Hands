@@ -198,4 +198,5 @@ Route::get('/confir','loginController@confir');
 
 Route::get('api/editarpro/{id}','Apis@traerpro');
 
-
+Route::get('login/{driver}', 'Auth\LoginController@redirectToProvider');
+Route::get('login/{driver}/callback', 'Auth\LoginController@handleProviderCallback');
