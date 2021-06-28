@@ -1,4 +1,4 @@
-<body style="background-image:url({{asset('img/back-results.jpg')}})" ng-controller="ingresaController">
+<body style="background-image:url({{asset('img/.jpg')}})" ng-controller="ingresaController">
 
 <div class="container main-container layout-search"  >
     <div class="col-md-12 in-container">
@@ -34,6 +34,7 @@
                     </form>
                     <p  ng-if="iputre==false" style="cursor: pointer" ng-click="olvide()" >¿Olvido su contraseña?</p>
                     <p  ng-if="iputre==true" style="cursor: pointer" ng-click="olvide()" >Ingresar</p>
+                    <p  ng-if="iputre==true" style="cursor: pointer" ng-click="olvide()" >Iniciar con facebook</p>
                 </div>
             </div>
             <div class="col-md-7" ng-if="obj_session2.id" style="margin-top: 5%">

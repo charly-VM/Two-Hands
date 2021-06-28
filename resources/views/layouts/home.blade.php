@@ -1,4 +1,4 @@
-{{--<body style="background-image:url({{asset('img/back-results.jpg')}});background-size: 100%" ng-controller="HomeController">--}}
+{{--<body style="background-image:url({{asset('img/.jpg')}});background-size: 100%" ng-controller="HomeController">--}}
 
 <body style="background-color: #fff; background-size: 100%;" ng-controller="HomeController">
 

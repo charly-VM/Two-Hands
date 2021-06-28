@@ -1,4 +1,4 @@
-<body style="background-image:url({{asset('img/back-results.jpg')}})" ng-controller="categorieController">
+<body style="background-image:url({{asset('img/.jpg')}})" ng-controller="categorieController">
 <input type="hidden" id="src_string" ng-init="inputSrc='{{$id}}'" ng-model="inputSrc">
 <div class="container main-container layout-search">
     <div class="col-md-12 in-container">

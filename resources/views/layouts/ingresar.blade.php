@@ -1,4 +1,4 @@
-<body style="background-image:url({{asset('img/back-results.jpg')}})" ng-controller="ingresaController">
+<body style="background-image:url({{asset('img/.jpg')}})" ng-controller="ingresaController">
 
 <div class="container main-container layout-search"  >
     <div class="col-md-12 in-container">

@@ -29,7 +29,7 @@
 		text-decoration: none;
 	}
 	body{
-		background-color: #b6b6b6;
+		background-color: #fff;
     	background-position-y: -230px;
 		background-repeat: no-repeat  !important;
 		    /*background-size: contain!important;*/
@@ -103,7 +103,7 @@
 		display: none;
 	}
 	.logo{
-	    background-image: url(../img/two-hands.png);
+	    background-image: url(../img/.png);
 	    width: 418px;
 	    height: 140px;
 	    z-index: 99;
@@ -309,7 +309,7 @@
 	/*HOME*/
 	.search-box{
 	    min-height: 300px;
-	    background-image: url(../img/two-hands2.png);
+	    background-image: url(../img/.png);
 	    background-repeat: no-repeat;
 	    background-position: 10%;
 	    background-size: 13%;	
@@ -383,7 +383,7 @@
 	    position: relative;
 	}
 	.in-container{
-	    background-color: white;
+	    /*background: linear-gradient(70deg, #E74C3C , #ffffff);*/
 	    /* padding: 160px 0 0 0; */
 	    padding: 110px 0 0 0;
 	    /* width: 80.2em; */
@@ -484,9 +484,11 @@
 	
 	
 	            .navbar-brand{    padding: 0px;
-    background-image: url(../img/two-hands.png);
-    width: 418px;
-    height: 137px; }
+    background-image: url(../img/LETRAS-3.png);
+    width: 400px;
+    height: 180px;
+	background-repeat: no-repeat;
+}
             .navbar{min-height: 74px !important;}
             /*.navbar-default .navbar-collapse, .navbar-default .navbar-form{ height: 100%;}*/
             /*.nav .navbar-nav{height: 100%;}*/
@@ -495,7 +497,7 @@
             .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{height: 71px;}
             .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{height: 71px;background-color:transparent !important;}
             .navbar{ 
-                background-image: url('../img/');
+                background-image: url('../img/.png');
                 border:0px;
                 background-repeat: no-repeat;
                 background-position: top left;
@@ -720,7 +722,7 @@ color: white !important;
 	
 	.navbar-header{
 		height:69px;
-		background-image: url(../img/two-hands.png);
+		background-image: url(../img/.png);
 	}
 	
 	.navbar-default{
