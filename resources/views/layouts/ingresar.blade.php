@@ -15,8 +15,11 @@
                         <fieldset><input type="password" placeholder="Password" required  ng-model="password"></fieldset>
                         <fieldset>
                             <button  class="button-contact" type="submit">Ingresar</button>
+                            
                         </fieldset>
                     </form>
+                    <button  class="button-contact-g" type="submit">Iniciar sesion con Google</button>
+                    <button  class="button-contact-f" type="submit">Iniciar sesion con Facebook</button>
                     <form ng-if="iputre==true" class="form-contact" ng-submit="recuperar(emailr);">
                         <fieldset><input type="email" placeholder="Email" name="emailr" required ng-model="emailr"></fieldset>
                         <fieldset>
