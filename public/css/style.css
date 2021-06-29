@@ -467,7 +467,7 @@
 		height: 100%;
 	}
 	.button-contact{
-	    width: 100%;
+	    width: 60%;
 	    border: 0;
 	    background: linear-gradient(70deg, #58D68D , #7FB3D5);
 	    margin: 15px 0;
@@ -476,7 +476,29 @@
 	    font-size: 1.4em;
 	    border-radius: 5px;
 	    font-weight: 600;
+	}
+	.button-contact-g{
+	    width: 50%;
+	    border: 0;
+	    background:#f72a06;
+	    margin: 15px 0;
+	    height: 45px;
+	    color: white;
+	    font-size: 1.4em;
+	    border-radius: 5px;
+	    font-weight: 600;
 	}	
+	.button-contact-f{
+	    width: 50%;
+	    border: 0;
+	    background:#0479c7;
+	    margin: 15px 0;
+	    height: 45px;
+	    color: white;
+	    font-size: 1.4em;
+	    border-radius: 5px;
+	    font-weight: 600;
+	}		
 	.main-nav .movil{
 		display: none;
 	}
