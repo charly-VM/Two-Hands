@@ -4,7 +4,7 @@
 
 
 
-## Tienda Web + admin + aplicacion movil. 
+## Tienda Web + admin + aplicacion movil.... 
 
 Tienda completa admin + tienda web en angularJs + app movil ionic 3
 
